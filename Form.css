@@ -30,9 +30,9 @@ input[type=submit]{
 
 #Rule{
     border: 0px;
-    height: 2px;
+    height: 3px;
     width: 100%;
-    background-color: red;
+    background-color: black;
 }
 
 
