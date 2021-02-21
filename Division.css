@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+ 
+}
+
+
+.div1{
+    padding-bottom: 20px;
+    margin-top: 10px;
+    background: linear-gradient(180deg, rgba(16,0,255,1) 20%, rgba(241,241,241,1) 100%);
+    padding: 20px;
+    text-align: center !important;
+    width: inherit;
+    color: white;
+    
+}
+
+.div1>p{
+    overflow: hidden;
+}
+
+.div4{
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    text-align: justify;
+    box-shadow: 5px 10px 20px rgba(255,0,245,1) inset;
+}
+
+.div2{
+    background:  rgba(255,0,245,0.5);
+    max-width: 500px;  
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    padding-left: 50px;
+    padding-right: 50px; 
+    padding-bottom: 50px;
+    text-align: justify;
+}
+
+.div3{
+    background:  rgba(255,0,245,0.5);
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    height: 100%;
+    
+    
+}
+
+.div5{
+    
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-height: 500px;
+    position: relative;
+    overflow: auto;
+    display: block;
+    float: left;
+    padding: 20px;
+    text-align: justify;
+    
+    box-shadow: 5px 8px 20px rgb(31, 72, 255);
+}
+
+
+
+.div6{
+    width: 100%;
+    
+}
+
+@media only screen and (max-width: 450px){
+    .div5{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        align-items: center;
+    }
+
+    .div3{
+        margin-top: 3360px;
+    }
+}
+
+@media only screen and (min-width: 450px){
+    .div5{
+        width: 84%;
+        margin-left: 7%;
+        margin-right: 7%;
+        align-items: center;
+    }
+    .div3{
+        margin-top: 3360px;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    .div5{
+        width: 40%;
+        margin-left: 5%;
+        margin-right: 5%;
+        align-items: center;
+    }
+    .div3{
+        margin-top: 1680px;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .div5{
+        width: 27%;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .div3{
+        margin-top: 1120px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 450px){
+    .div1>p{
+        font-size: 1em;
+    }
+}
+
+@media only screen and (min-width: 450px){
+    .div1>p{
+        font-size: 1.5em;
+    }
+}
+
+@media only screen and (min-width: 510px){
+    .div1>p{
+        font-size: 1.7em;
+    }
+}
+
+@media only screen and (min-width: 750px){
+    .div1>p{
+        font-size: 2.5em;
+    }
+}

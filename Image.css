@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    display: block;
+}
+
+.img1{
+    float: right;
+    width: initial;
+}
+
+@media only screen and (max-width: 400px){
+    .img1{
+        width: 100%;
+    }
+}
+
+.img2{
+    width: 100%;
+}
